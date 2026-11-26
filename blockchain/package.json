@@ -1,0 +1,20 @@
+{
+  "name": "blockchain-warranty-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for Blockchain-Based Digital Warranty System on Polygon Amoy",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "clean": "hardhat clean"
+  },
+  "keywords": ["blockchain", "warranty", "nft", "erc721", "polygon", "solidity"],
+  "author": "Vatsalya Singh, Piyush Panwar, Bhumi Varshney",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.4"
+  }
+}

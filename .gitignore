@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Hardhat & Blockchain Artifacts
+blockchain/artifacts/
+blockchain/cache/
+blockchain/typechain/
+blockchain/typechain-types/
+
+# Production Builds
+client/dist/
+client/build/
+server/dist/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+server/.env
+client/.env
+blockchain/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+server/logs/
+*.log
+
+# Editor & OS Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
